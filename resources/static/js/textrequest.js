@@ -6,7 +6,8 @@ const textToSpeech = new TextToSpeechV1({
   authenticator: new IamAuthenticator({ apikey: 'GBggpJhC6njXJCQ1WYHzX7x2K6--6_LizFI9nXDrtRAv' }),
   serviceUrl: 'https://api.us-south.text-to-speech.watson.cloud.ibm.com'
 });
-  
+
+module.exports.lerComentarios = function(id) {
 const params = {
   text: 'Texto falado Brasil',
   voice: 'pt-BR_IsabelaVoice', // Optional voice
@@ -26,3 +27,4 @@ textToSpeech
     console.log(err);
   
   });
+}
