@@ -6,7 +6,6 @@ Smarkio Brasil - Teste Técnico
 <b>Primeiro de tudo, crie um banco de dados mysql chamado "testdb" e crie uma tabela chamada "users".</b>
 
 ### Para criar o banco de dados:
-</br> 
 <b>Passo 1:</b> {Certifique-se de ter o MySQL instalado `mysql --version`} então `mysql -u {usuario} -p` insira a senha quando solicitada.
 </br> 
 <b>Passo 2:</b> `create database testdb;`
