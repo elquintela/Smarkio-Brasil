@@ -15,7 +15,6 @@ Smarkio Brasil - Teste Técnico
 </br> 
 
 ### Para iniciar o projeto:
-</br>
 <b>Passo 1:</b> `git clone https://github.com/elquintela/Smarkio-Brasil.git` para clonar o repositório
 </br> 
 <b>Passo 2:</b> Configure a conexão SQL, inserindo as infomações do seu usuário -> 
