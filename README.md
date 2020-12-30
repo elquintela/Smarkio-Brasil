@@ -2,6 +2,7 @@ Smarkio Brasil - Teste Técnico
 ==============
 
 ### Sistema de comentários com recurso da IBM Watson(Text to Speech) como forma de acessibilidade. 
+==============
 
 <b>Primeiro de tudo, crie um banco de dados mysql chamado "testdb" e crie uma tabela chamada "users".</b>
 
