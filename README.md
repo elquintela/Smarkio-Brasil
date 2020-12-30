@@ -7,13 +7,15 @@ Smarkio Brasil - Teste Técnico
 
 ### Para criar o banco de dados:
 </br> 
-<b>Passo 1:</b> {Certifique-se de ter o MySQL instalado `mysql --version`} então `mysql -u {usuario} -p` insira a senha quando solicitada.</br> 
+<b>Passo 1:</b> {Certifique-se de ter o MySQL instalado `mysql --version`} então `mysql -u {usuario} -p` insira a senha quando solicitada.
+</br> 
 <b>Passo 2:</b> `create database testdb;`
 </br> 
 <b>Passo 3:</b> `show databases;` e verifique se o banco de dados foi criado.
 </br> 
 
 ### Para iniciar o projeto:
+</br>
 <b>Passo 1:</b> `git clone https://github.com/elquintela/Smarkio-Brasil.git` para clonar o repositório
 </br> 
 <b>Passo 2:</b> Configure a conexão SQL, inserindo as infomações do seu usuário -> 
