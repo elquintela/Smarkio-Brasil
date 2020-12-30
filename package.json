@@ -23,7 +23,6 @@
     "ibm-watson": "^6.0.1",
     "mysql2": "^1.5.3",
     "require": "^2.4.20",
-    "sequelize": "^4.37.6",
-    "watson-developer-cloud": "^4.0.1"
+    "sequelize": "^4.37.6"
   }
 }
