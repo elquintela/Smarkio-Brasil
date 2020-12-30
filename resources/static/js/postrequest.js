@@ -24,7 +24,7 @@ $( document ).ready(function() {
 			dataType : 'json',
 			success : function(customer) {
 				$("#postResultDiv").html("<p>" + 
-					"Postado com sucesso! <br>"); 
+					"Postado com sucesso! Clique em COMENTÁRIOS para ler todos os comentários. <br>"); 
 			},
 			error : function(e) {
 				alert("Error!")
