@@ -15,7 +15,7 @@
 ### Para iniciar o projeto:
 <b>Passo 1:</b> `git clone https://github.com/elquintela/Smarkio-Brasil.git` para clonar o repositório
 </br> 
-<b>Passo 2:</b> Configure a conexão SQL, inserindo as infomações do seu usuário -> 
+<b>Passo 2:</b> Configure a conexão SQL, inserindo as infomações do seu usuário: 
 </br> 
   ```
   const env = {
