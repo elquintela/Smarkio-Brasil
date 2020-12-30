@@ -1,10 +1,11 @@
+const cors = require('cors');
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.json());
-
+app.use(cors());
 app.use(express.static('resources'));
- 
+
 global.__basedir = __dirname;
 
 const db = require('./app/config/db.config.js');

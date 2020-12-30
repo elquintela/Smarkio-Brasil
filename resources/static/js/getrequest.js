@@ -1,7 +1,9 @@
 function capturarComentario(id){
 	const ouvir = document.getElementById(id).innerHTML;
-	alert(ouvir)
+	const ibm = require('./textrequest');
+	ibm.lerComentarios(ouvir);
 }
+window.capturarComentario = capturarComentario;
 
 $( document ).ready(function() {
 	// GET REQUEST
