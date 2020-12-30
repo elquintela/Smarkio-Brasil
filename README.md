@@ -3,12 +3,16 @@ Smarkio Brasil - Teste Técnico - Sistema de comentários com recurso da IBM Wat
 
 Primeiro de tudo, crie um banco de dados mysql chamado "testdb" e crie uma tabela chamada "users".
 
-Para criar o banco de dados - Passo 1: {Certifique-se de ter o MySQL instalado `mysql --version`} então `mysql -u {usuario} -p` insira a senha quando solicitada. 
+Para criar o banco de dados - Passo 1: {Certifique-se de ter o MySQL instalado `mysql --version`} então `mysql -u {usuario} -p` insira a senha quando solicitada.</br> 
 Passo 2: `create database testdb;`
+</br> 
 Passo 3: `show databases;` e verifique se o banco de dados foi criado.
+</br> 
 
-Para iniciar o projeto - Passo 1: `git clone https://github.com/elquintela/Smarkio-Brasil.git` para clonar o repositório.
+Para iniciar o projeto - Passo 1: `git clone https://github.com/elquintela/Smarkio-Brasil.git` para clonar o repositório
+</br> 
 Passo 2: Configure a conexão SQL, inserindo as infomações do seu usuário -> 
+</br> 
   `const env = {
   database: 'testdb',
   username: 'root',
@@ -24,8 +28,11 @@ Passo 2: Configure a conexão SQL, inserindo as infomações do seu usuário ->
 };
  
 module.exports = env;`
+</br> 
 Passo 3: `npm i` para instalar as dependências.
+</br> 
 Passo 4: `npm start` para iniciar o servidor.
+</br> 
+</br> 
 
-
-Vá para `http://localhost:8081/` para acessar o aplicativo.
+Vá para `http://localhost:8081/` para acessar o aplicativo.</br> 
