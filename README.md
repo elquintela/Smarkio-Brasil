@@ -1,5 +1,4 @@
-Smarkio Brasil - Teste Técnico
-==============
+## Smarkio Brasil - Teste Técnico <hr>
 
 <b>Sistema de comentários com recurso da IBM Watson(Text to Speech) como forma de acessibilidade</b><hr>
 
