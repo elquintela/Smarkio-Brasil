@@ -2,6 +2,7 @@ function capturarComentario(id){
 	const ouvir = document.getElementById(id).innerHTML;
 	const ibm = require('./textrequest');
 	ibm.lerComentarios(ouvir);
+	alert(ouvir);
 }
 window.capturarComentario = capturarComentario;
 
